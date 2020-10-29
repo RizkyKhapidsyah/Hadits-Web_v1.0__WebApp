@@ -1,0 +1,110 @@
+
+@font-face {
+ font-family: "Scheherazade";
+ src: url("ScheherazadeRegOT.ttf");
+ font-weight:normal;
+}
+
+@font-face {
+ font-family: "Forte";
+ src: url("FORTE.ttf");
+ font-weight:normal;
+}
+
+body {
+margin: 0px;
+min-height: 480px;
+font-family: Scheherazade;
+}
+form ul {
+margin: 0px;
+padding: 6px;
+list-style-type: none;
+}
+form ul li {
+margin: 0 0 4px 0;
+-webkit-border-radius: 4px;
+border: 1px solid #666666;
+padding: 4px;
+}
+form ul li.naked {
+-webkit-border-radius: 0px;
+border: 0;
+padding: 0;
+}
+input, textarea {
+-webkit-appearance: none;
+border: 0;
+width: 99%;
+}
+input[type=submit] {
+border: 1px solid white;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0,
+#F8F8F8), color-stop(1.0, #AAAAAA));
+-webkit-border-radius: 6px;
+-webkit-box-shadow: 0 0 4px #333333;
+width: 100%;
+padding: 6px;
+}
+
+
+.header {background-color:#FFFFFF;
+	color:#000000;	
+	display:block;
+	font-family: "Scheherazade";
+	src: url(ScheherazadeRegOT.ttf);
+	font-size: 25px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-align:justify;
+	white-space: normal;
+	width: 110%;	
+	line-height:50%;}
+.hadist {
+	color:#CCCC00;
+	padding:2px 4px;
+	display:block;
+	font-family: "Scheherazade";
+	src: url(ScheherazadeRegOT.ttf);
+	font-size: 45px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-align:justify;
+	white-space: normal;
+	width: 100%;	
+	line-height:120%;}
+	
+.bab {
+	color:#FFFFFF;
+	
+	display:block;
+	font-family: "Scheherazade";
+	src: url(ScheherazadeRegOT.ttf);
+	font-size: 30px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-align:justify;
+	white-space: normal;
+	width: 100%;	
+	line-height:120%;}
+	
+.meaning {
+	color:#FFFFFF;	
+	
+	font-family: "Arial";
+	src: url(arial.ttf);
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-align:justify;
+	white-space: normal;
+	width: 100%;	
+	line-height:120%;}	
